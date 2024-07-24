@@ -1,0 +1,208 @@
+*{
+    cursor: default;
+}
+.main-nav{
+    display: flex;
+    background-color: black;
+    border-radius: 30px;
+    justify-content: center;
+}
+.main-nav-items{
+    display: flex;
+    color: white;
+}
+.main-nav-item{
+    padding: 20px;
+    font-size: 20;
+}
+.navbarhead{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    transition: all;
+}
+.navbarhead:hover{
+    transform: translateY(-20px);
+}
+.navbarhead h1{
+    background-color: black;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+.navbarhead h1:hover{
+    background-color: white;
+    color: black;
+    cursor: default;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.profileimg{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 350px;
+    margin: 100px;
+}
+.medialinks{
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+    margin: 20px;
+    align-items: center;
+    color: white;
+    font-size: xx-large;
+}
+.medialinks:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+.bgvideo{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+}
+.socialmediamenu{
+    display:flex;
+    justify-content: center;
+}
+.profile-discription{
+    color: white;
+    padding: 80px;
+    font-size: 25;
+    text-align: center;
+    background-color: black;
+}
+.fullbody{
+    background-color: black;
+}
+.skillhead{
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+}
+.skillhead h3{
+    background-color: white;
+    color: black;
+    font-size: xx-large;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+}
+.smenu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    color: white;
+    align-items: center;
+    font-size: xx-large;
+    justify-content: space-evenly;
+}
+.skill{
+    background-color: lightcyan;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+}
+.dis-skillhead{
+    color: white;
+    font-size: 80;
+    margin-left: 150px;
+}
+.dis-skillhead:hover{
+    color: burlywood;
+    font-weight: bolder;
+}
+.skill-card{
+    display: grid;
+    grid-template-columns: auto auto; 
+    justify-content: center;
+    border: 5px solid burlywood;
+    border-radius: 40px;
+    padding: 10px;
+    background-color: lightskyblue ;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.skill-card:hover{
+    background-color: burlywood;
+    border-color: red;
+}
+.skill-name{
+    color: white;
+    font-size: 45;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.skill-name:hover{
+    color: burlywood;
+    font-weight: bold;
+}
+.skill-logo{
+    height: 300px;
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.skill-dis{
+    color: black;
+    font-size: 35;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: burlywood;
+}
+.footerItems{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 0;
+}
+.connectbutton{
+    color: black;
+    font-size: 50;
+    border: 3px solid lightblue;
+    border-radius: 15px;
+    margin-right: 1280px;
+    margin-left: 100px;
+    background-color: burlywood;
+    text-decoration: none;
+}
+.connectbutton:hover{
+    background-color: lightskyblue;
+    border-color: burlywood;
+    cursor: pointer;
+}
+.comeontxt{
+    color: skyblue;
+    padding-left: 100px;
+    font-size: 40;
+    margin-top: 100px;
+    text-decoration: underline black;
+}
+.comeontxt:hover{
+    text-decoration: underline skyblue;
+}
+.wholecard{
+    border: 3px solid burlywood;
+    margin-bottom: 50px;
+}
